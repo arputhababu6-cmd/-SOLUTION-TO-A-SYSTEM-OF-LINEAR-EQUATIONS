@@ -15,9 +15,13 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 import numpy as np
+
 matrixA=np.array([[1,3],[2,5]])
+
 const=np.array([5,-3])
+
 result=np.linalg.solve(matrixA,const)
+
 print(result)
 ## Output:
 <img width="348" height="118" alt="image" src="https://github.com/user-attachments/assets/a2045576-7068-42b0-8359-764f26e9e45d" />
